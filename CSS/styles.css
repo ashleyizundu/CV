@@ -1,0 +1,207 @@
+/******************************************Tags******************************************/
+a{
+  color:#38acec;
+}
+body{
+    margin:0;
+    padding:0;
+    text-align:center;
+    font-family: arial, sans-serif;
+    background-color: #e6e6e6;
+    color: #4C4646;
+    line-height: 2;
+    }
+
+h1{
+    color:  #786D5F;
+        font-family: 'Source Serif Pro', serif;
+  }
+h2{
+    text-align:center;
+    color: #c0b283;
+    font-size:190%;
+}
+h3{
+  color:#786D5F;
+  font-size:160%;
+}
+ul{
+  text-align:left;}
+li{
+  text-align:left;
+  list-style-type:circle;
+}
+hr{
+  padding: 0;
+    border: none;
+    border-top: 5px double #dcd0c0;
+    color: #dcd0c0;
+    text-align: center;
+    width: 50%;
+    margin-top:90px;
+
+
+}
+img{
+   box-shadow: 4px 4px 2px #423C3C;
+   border-style:solid;
+   border-width: .5px;
+   border-color: grey;
+
+}
+
+
+/*******************************************Classes***************************************/
+
+
+
+
+.top-container{
+  background-color:#dcd0c0;
+  position: relative;
+  width:100%;
+  overflow:auto;
+  box-shadow: 4px 4px 2px gray;
+}
+.bio{
+  display: inline-block;
+  width:50%;
+  margin-top:50px;
+  margin-left:100px;
+  margin-right:50px;
+  font-weight:bold;
+  text-align:left;
+}
+.profile-photo{
+  width:300px;
+  border-radius:50%;
+  background-color: #f4f4f4;
+  margin: 50px 150px 50px 50px;
+  -webkit-shape-outside:circle();
+  float:right;
+}
+.Education{
+  position:relative;
+  width:100%;
+  margin-top:90px;
+}
+.education-text{
+  width:50%;
+  position:relative;
+  margin:auto;
+}
+.diploma{
+  width:275px; height:auto;
+  position:absolute;
+  left:20px;
+  top:50px;
+}
+.pm-certificate{
+  position:absolute;
+  right:20px;
+  top:50px;
+  width:275px; height:auto;
+}
+.projects{
+  position:relative;
+  width: 100%;
+  margin-top:100px;
+margin-bottom: 150px;
+
+}
+.project-text{
+  background-color: #E5E4E2;
+  width: 50%;
+  padding:10px;
+  text-align: left;
+  top:50px;
+  left: 50px;
+  margin: 50px;
+}
+.intranet{
+  position:absolute;
+  top:0;
+  right:50px;
+  width: 350px;
+  display:inline-block;
+}
+.sql{
+  position:absolute;
+  width:350px;
+  top: 200px;
+  right:150px;
+
+}
+.kickcity{
+  position:absolute;
+  width:350px;
+  top: 550px;
+  right:50px;
+  margin-bottom:50px;
+}
+
+
+.date{
+    text-align:right;
+    font-style: italic;
+    float:right;
+}
+
+.Experience{
+  display: inline-block;
+margin-top:80px;
+
+
+}
+.ex1{
+  float: left;
+	width: 45%;
+  margin-right:2.5%;
+  margin-left:2.5%;
+}
+.ex2{
+  float: left;
+	width: 45%;
+  margin-left:2.5%;
+  margin-right:2.5%;
+}
+.tutoria{
+  margin:20px auto 35px auto;
+}
+
+.hubspot{
+    margin:20px auto 35px auto;
+}
+.head-name{
+  text-shadow:2px 2px 3px;
+  font-size: 4rem;
+  margin:0;
+  padding:10px;
+  line-height:1;
+  font-family: 'Source Serif Pro', serif;
+}
+
+
+
+.skills{
+
+    font-weight:bold;
+    margin:80px;
+
+}
+.sli{
+  list-style-type: none;
+  text-align:center;
+}
+.contact{
+
+  text-align:center;
+  margin:50px auto 100px auto;
+  width:80%;
+  font-weight:bold;
+
+}
+.button{
+  position:absolute;
+  right:175px;
+}
